@@ -3,6 +3,10 @@
     font-size: large;
   }
 
+  .link:hover {
+    color: orange;
+  }
+
   .title {
     font-size: xx-large;
     font-weight: bold;
@@ -24,14 +28,27 @@
     cursor: pointer;
     margin-left: 10px;
     margin-top: auto;
+    transition: background-color 0.15s, opacity 0.3s, box-shadow 0.5s;
   }
 
   .add {
     background-color: yellow;
   }
 
-  .add {
+  .add:hover {
+    background-color: rgb(158, 68, 3);
+  }
+
+  .add:active {
+    opacity: 0.8;
+  }
+
+  .buy {
     background-color: rgb(255, 164, 28);
+  }
+
+  .buy:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
 </style>
 
